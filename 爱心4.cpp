@@ -1,4 +1,5 @@
 //#include <stdio.h>
+
 //#include <stdlib.h>
 //#include <unistd.h>
 //#include <conio.h>
@@ -13,10 +14,10 @@
 //		}
 //		putchar('\n');
 //	}
-//	for (; !kbhit();)    //kbhit()Î»ÓÚconio.hÖĞ£¬¼ì²âÊÇ·ñÓĞ¼ü°´ÏÂ
+//	for (; !kbhit();)    //kbhit()ä½äºconio.hä¸­ï¼Œæ£€æµ‹æ˜¯å¦æœ‰é”®æŒ‰ä¸‹
 //	{
 //		char str[10];
-//		sprintf(str, "color %x", rand() % 16); //ĞÎ³ÉÒ»Ìõcolor XµÄ×Ö·û´®£¬×¢ÒâÒªÓÃ%x
+//		sprintf(str, "color %x", rand() % 16); //å½¢æˆä¸€æ¡color Xçš„å­—ç¬¦ä¸²ï¼Œæ³¨æ„è¦ç”¨%x
 //		system(str);
 //		sleep(0.5);
 //	}
